@@ -26,48 +26,44 @@ body {
     margin: 115px auto;
     width: 80%;
     height: 600px;
-   display: flex;
-   
-  
+    display: flex;
 }
 
-.text, .hide{
+.text,
+.hide {
     z-index: 1;
     display: none;
     flex-direction: column;
     text-align: left;
-
     justify-content: space-evenly;
 }
 
-
-
-
-.text p,.hide p{
+.text p,
+.hide p {
     font-size: 32px;
     font-weight: 300;
     color: var(--DarkBlue);
     line-height: -2.2;
 }
 
-.text .name, .hide .name {
+.text .name,
+.hide .name {
     font-size: 24px;
     font-weight: 500;
     color: var(--GrayishBlue);
 }
 
-.text span, .hide span {
+.text span,
+.hide span {
     font-size: 26px;
     font-weight: 700;
     color: var(--DarkBlue);
 }
 
-
 .slider {
     position: relative;
     margin-left: -90px;
 }
-
 
 .slide-two,
 .slide-one {
@@ -81,10 +77,10 @@ body {
 .active {
     display: block;
 }
-.show{
+
+.show {
     display: flex;
 }
- 
 
 .containerPrev,
 .containerNext {
